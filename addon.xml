@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.stipx" name="StipX addon repository" version="1.0.0" provider-name="stipx">
+	<extension point="xbmc.addon.repository" name="StipX addon repository">
+		<info compressed="false">https://stipx.com/kodi/repository/addons.xml</info>
+		<checksum>https://stipx.com/kodi/repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://stipx.com/kodi/repository/data</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>StipX addon repository</summary>
+		<description>A repository of StipX' addons for Kodi including Laola1.tv free</description>
+		<platform>all</platform>
+	</extension>
+</addon>
